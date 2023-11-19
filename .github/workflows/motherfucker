@@ -1,6 +1,8 @@
 name: motherfucker
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   sync_with_upstream:
