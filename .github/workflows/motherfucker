@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.x"
           architecture: "x64"
-      - run: python ./.github/actions/checkin/universal.py
+      - run: python ./auto-checkin.py
 
       - name: timestamp
         run: date
